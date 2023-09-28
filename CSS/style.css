@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(../img/BG.jpg);
+    background-size: cover;
+    color: black;
+    /* background-position: 50%; */
+}
+
+header {}
+
+.right {
+    /* border: 2px  solid red; */
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+.mid {
+    /* border: 2px  solid red;    */
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.left {
+    /* border: 2px  solid red;  */
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 18px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: large;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Yatra One', cursive;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: chartreuse;
+}
+
+.left a img {
+    width: 60px;
+    margin-left: 20px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Bonheur Royale';
+    line-height: 8px;
+    padding-left: 10px;
+}
+
+.btn {
+    margin: 10px 5px;
+    padding: 4px 10px;
+    background-color: transparent;
+    color: aliceblue;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Yatra One', cursive;
+}
+
+.btn:hover {
+    background-color: rgb(59, 56, 56);
+}
+
+.container {
+    color: white;
+    margin: 110px 75px;
+    padding: 75px 75px;
+    width: 28%;
+    border: 2px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: transparent;
+}
+
+#head{
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+
+.form-grp input{
+    text-align: center;
+    display: block;
+    width: 200px;
+    border: 2px solid transparent;
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.container .btn{
+    display: block;
+    width: 35%;
+    margin: 15px auto;
+    margin-bottom: 0%;
+}
